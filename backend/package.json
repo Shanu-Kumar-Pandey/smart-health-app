@@ -1,0 +1,21 @@
+{
+  "name": "healthhub-reminder-backend",
+  "version": "1.0.0",
+  "description": "Cron-based FCM sender for HealthHub reminders (Firestore-driven)",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.5.0",
+    "googleapis": "^164.1.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^7.0.10",
+    "open": "^10.2.0"
+  }
+}
